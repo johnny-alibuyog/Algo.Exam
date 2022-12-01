@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <GenerateProgramFile>false</GenerateProgramFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="PepCoding\RussianDollEnvelopes.fs" />
+    <Compile Include="Algo.Expert\ShiftLinkedList.fs" />
+    <Compile Include="LeetCode\AddTwoNumbers.fs" />
+    <Compile Include="LeetCode\LongestSubstringWithoutRepeatingCharacters.fs" />
+    <Compile Include="LeetCode\LongestPalindromicSubstring.fs" />
+    <Compile Include="LeetCode\MedianOfTwoSortedArrays.fs" />
+    <Compile Include="LeetCode\ZigzagConversion.fs" />
+    <Compile Include="LeetCode\ReverseInteger.fs" />
+    <Compile Include="LeetCode\StringToInteger.fs" />
+    <Compile Include="LeetCode\ContainerWithMostWater.fs" />
+    <Compile Include="LeetCode\IntegerToRomanNumerals.fs" />
+    <Compile Include="LeetCode\LongestCommonPrefix.fs" />
+    <Compile Include="LeetCode\ThreeSum.fs" />
+    <Compile Include="LeetCode\ThreeSumClosest.fs" />
+    <Compile Include="LeetCode\LetterCombinationsOfAPhoneNumber.fs" />
+    <Compile Include="LeetCode\FourSums.fs" />
+    <Compile Include="LeetCode\RemoveNthNodeFromEndOfList.fs" />
+    <Compile Include="LeetCode\ValidParentheses.fs" />
+    <Compile Include="LeetCode\MergeTwoSortedLists.fs" />
+    <Compile Include="LeetCode\SubstringWithConcatenationOfAllWords.fs" />
+    <Compile Include="LeetCode\CombinationSum.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FsUnit" Version="5.1.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.4.0" />
+    <PackageReference Include="coverlet.collector" Version="3.2.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="NUnit3TestAdapter" Version="4.3.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="7.0.0" />
+  </ItemGroup>
+</Project>

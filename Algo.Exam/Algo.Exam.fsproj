@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Algo_Exam</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="LeetCode\AddTwoNumbers.fs" />
+    <Compile Include="LeetCode\LongestSubstringWithoutRepeatingCharacters.fs" />
+    <Compile Include="LeetCode\MedianOfTwoSortedArrays.fs" />
+    <Compile Include="EarliestPossibleDayOfFullBloom.fs" />
+    <Compile Include="FSharpLearn.fs" />
+    <Compile Include="LongestValidParentheses.fs" />
+    <Complie Include="LeetCode\AddTwoNumbers.fs" />
+    <Compile Include="AddTwoNumbers.fs" />
+    <Compile Include="LinkedList.fs" />
+    <Compile Include="Matrix.fs" />
+    <Compile Include="RussianDollEnvelopes.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+</Project>
