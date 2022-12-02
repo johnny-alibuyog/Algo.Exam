@@ -26,7 +26,6 @@
     <Compile Include="LeetCode\MergeTwoSortedLists.fs" />
     <Compile Include="LeetCode\SubstringWithConcatenationOfAllWords.fs" />
     <Compile Include="LeetCode\CombinationSum.fs" />
-    <Compile Include="LeetCode\Matrix.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
   <ItemGroup>
